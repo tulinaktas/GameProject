@@ -8,9 +8,9 @@ namespace GameProject.Concreate
 {
     public class GamerManager : IGamerServices
     {
-        private IGovermentCheck _govermentCheck;
+        private ICheckService _govermentCheck;
 
-        public GamerManager(IGovermentCheck govermentCheck)
+        public GamerManager(ICheckService govermentCheck)
         {
             _govermentCheck = govermentCheck;
         }

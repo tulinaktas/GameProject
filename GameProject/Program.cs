@@ -49,7 +49,7 @@ namespace GameProject
                 CampaignAmount = 20
             };
 
-            IGovermentCheck govermentCheck = new GovermentCheckManager();
+            ICheckService govermentCheck = new GovermentCheckManager();
 
             GamerManager gamerManager = new GamerManager(govermentCheck);
             CampaignManager campaignManager = new CampaignManager();

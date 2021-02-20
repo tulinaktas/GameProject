@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GameProject.Abstract
 {
-    public interface IGovermentCheck
+    public interface ICheckService
     {
         public bool Check(Gamer gamer);
     

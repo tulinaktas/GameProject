@@ -6,7 +6,7 @@ using System.Text;
 
 namespace GameProject.Concreate
 {
-    public class GovermentCheckManager : IGovermentCheck
+    public class GovermentCheckManager : ICheckService
     {
         public bool Check(Gamer gamer)
         {
